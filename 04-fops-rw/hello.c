@@ -17,7 +17,7 @@
 #define NPAGES  1
 
 struct m_foo_dev {
-    int size;
+    int32_t size;
     char *kmalloc_ptr;
     dev_t dev_num;
     struct class *m_class;

@@ -1,0 +1,1 @@
+cmd_/home/phong/working_space/00-Project-Management/00-Freelance/Linux-Porting-N-System/bbb_led_blinking/led_module.mod := { echo  /home/phong/working_space/00-Project-Management/00-Freelance/Linux-Porting-N-System/bbb_led_blinking/led_module.o;  echo; } > /home/phong/working_space/00-Project-Management/00-Freelance/Linux-Porting-N-System/bbb_led_blinking/led_module.mod
