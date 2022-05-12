@@ -1,0 +1,25 @@
+commit a86ceefa07094fd569daa13cce1971ec0b58db85
+Author: Huu Thinh <huuthinh1603@gmail.com>
+Date:   Sun May 3 10:42:14 2020 +0700
+
+    Led module
+
+diff --git a/arch/arm/boot/dts/am33xx.dtsi b/arch/arm/boot/dts/am33xx.dtsi
+index a89d5e2cf01b..58ec11c04a53 100644
+--- a/arch/arm/boot/dts/am33xx.dtsi
++++ b/arch/arm/boot/dts/am33xx.dtsi
+@@ -333,6 +333,14 @@
+ 				"GPMC_WPN";	// 31
+ 		};
+ 
++		led_module: led@44e07000 {
++                        compatible = "led, module";
++                        reg = <0x44e07000 0x1000>;
++                        status = "okay";
++
++                };
++
++
+ 		gpio1: gpio@4804c000 {
+ 			compatible = "ti,omap4-gpio";
+ 			ti,hwmods = "gpio2";
